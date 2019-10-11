@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.authors = { "Mike Apurin" => 'mike.apurin@gmail.com' }
   s.source = { :git => 'https://github.com/auramagi/SwiftWebVTT.git', :tag => s.version }
   
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '9.2'
   
   s.swift_version = '5.0'
   
