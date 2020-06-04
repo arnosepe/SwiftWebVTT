@@ -8,7 +8,9 @@ Pod::Spec.new do |s|
   s.source = { :git => 'https://github.com/auramagi/SwiftWebVTT.git', :tag => s.version }
   
   s.ios.deployment_target = '9.2'
-  
+
+  s.pod_target_xcconfig    = { 'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES' }
+
   s.swift_version = '5.0'
   
   s.source_files = "SwiftWebVTT/*.{h,swift}"
